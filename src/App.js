@@ -29,7 +29,7 @@ function App() {
               </Route>
               <Route exact path="/cryptocurrencies">
                 <Cryptocurrencies />
-              </Route>
+              </Route>   
               <Route exact path="/crypto/:coinId">
                 <CryptoDetails />
               </Route>
@@ -60,3 +60,6 @@ function App() {
 }
 
 export default App;
+
+
+
